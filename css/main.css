@@ -1,0 +1,95 @@
+body{
+    background-color: #eff3f6;
+}
+
+.navbar{
+    padding: 10px 100px;
+    background: -webkit-gradient(linear, left top, right top, from(#09c), to(#14e)) !important;
+    background: linear-gradient(to right, #09c, #14e) !important;
+}
+
+.navbar a{
+    color: white !important;
+}
+.navbar a i{
+    padding: 7px;
+}
+
+.navbar .dropdown-menu a{
+    color: black !important
+}
+
+/*///////////////////////////////////////////////////////////////////////////////*/
+.sidebar{
+    background-color: #34444c;
+    overflow: auto;
+    height: 100%;
+    position: fixed;
+}
+
+.sidebar ul {
+    position: absolute;
+    list-style-type: none;
+    left: 0;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar ul li:hover a{
+    color: white !important;
+    cursor: pointer;
+}
+
+.sidebar ul li a{
+    color: #b7c0cd !important;
+    -webkit-transition: all 1s;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+    text-decoration: none;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.stats {
+    position: absolute;
+    right: 0;
+}
+
+.stats .imp .bgg{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 0px 5px grey;
+    box-shadow: 0px 1px 5px #ccc
+}
+.stats i{
+    padding: 17px;
+    color: #888;
+    background-color: #eee;
+    border-radius: 50%
+}
+/*/////////////////////////////////////////////////////////////////////////*/
+.graph{
+    height: 250px;
+}
+
+/*////////*/
+
+.stats .imp .skills .sk{
+    padding: 5px 7px;
+    border: solid 1px gray;
+    border-radius: 50px;
+    margin: 3px 10%
+}
+
+
+
+
+
+
+
+
+
+
+
